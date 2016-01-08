@@ -23,7 +23,7 @@ plot(power$dttm,power$Sub_metering_1, type='l', xlab="",
      ylab="Energy sub metering")
 lines(power$dttm,power$Sub_metering_2,col="red")
 lines(power$dttm,power$Sub_metering_3,col="blue")
-legend("topright",c("Sub Metering 1","Sub Metering", "Sub Metering 3"), 
+legend("topright",c("Sub Metering 1","Sub Metering 2", "Sub Metering 3"), 
        lty="solid",col=c("black","red","blue"))
 
 
