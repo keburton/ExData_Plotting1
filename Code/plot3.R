@@ -30,4 +30,4 @@ legend("topright",c("Sub Metering 1","Sub Metering 2", "Sub Metering 3"),
 dev.copy(png, file="plot3.png", width=480, height=480)
 dev.off()
 
-cat(getwd(), "now contains Plot3.png ")
+

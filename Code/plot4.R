@@ -43,4 +43,4 @@ plot(power$datetime,power$Global_reactive_power,xlab="datetime",
 dev.copy(png, file="plot4.png", width=480, height=480)
 dev.off()
 
-cat(getwd(), "now contains Plot4.png ")
+

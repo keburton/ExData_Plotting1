@@ -23,4 +23,3 @@ plot(power$dttm, power$Global_active_power,
 dev.copy(png, file="plot2.png", width=480, height=480)
 dev.off()
 
-cat(getwd(), "now contains Plot2.png ")

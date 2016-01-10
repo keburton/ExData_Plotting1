@@ -21,4 +21,3 @@ hist(power$Global_active_power,
 dev.copy(png, file="plot1.png", width=480, height=480)
 dev.off()
 
-cat(getwd(), "now contains Plot1.png ")
